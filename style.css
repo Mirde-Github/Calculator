@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f277ae;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+
+   
+}
+h1{
+    color: #271ec9;
+    text-align: center;
+}
+.main input{
+    width: 100%;
+    padding: 0.5rem;
+}
+.box{
+    display: grid;
+    justify-content: space-evenly;
+}
+.box input{
+padding: 0.8rem 1.5rem;
+flex: 1;
+background-color: #7950f2;
+margin-top: 0.5rem;
+width: 2rem;
+
+}
+input{
+    text-align: center;
+}
+#dot{
+    font-size: 0.8rem;
+}
